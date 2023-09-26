@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <style>
+        table,th,td{
+            border: solid 1px black;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- <p> HTML5 introduced a set of semantic elements such as <header>, <nav>, <main>, <article>, <section>, <footer>, and more, which provide a clearer structure to web documents and improve accessibility.</p> -->
+    <header>
+        <!-- <p>The <header> tag in HTML is used to define a container for introductory content or a group of navigational links typically found at the top of a web page or within a section of the page. It represents a semantic way to mark the introductory or identifying content of a section or the entire document. Here are some common uses of the <header></header></p> -->
+        <div>
+            <img width="100px" height="100px" style="display: inline;" src="https://static.nike.com/a/images/f_jpg,q_auto:eco/61b4738b-e1e1-4786-8f6c-26aa0008e80b/swoosh-logo-black.png" alt="Nike logo">
+            <h1 style="display: inline;">Welcome to Nike</h1>
+        </div>
+        <nav>
+            <!-- <p>The <nav> tag in HTML is used to define a section of a web page that contains navigation links or menus. It is meant to mark up the primary navigation menu(s) on a web page, making it easier for search engines and assistive technologies to identify and understand the navigation structure of a site.</p> -->
+            <a href="">New &#38; featured</a>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Kids</a>
+            <a href="">Sale</a>
+            <a href="">features</a>
+        </nav>
+    </header>
+        <main>
+            <!-- <p>HTML5 introduced the <article>, <main>, and <section> elements to provide a more semantic and structured way to organize web content. The article element is used to define a self-contained, independent piece of content within a web page.</p> -->
+            <header>
+                <h2>About Nike</h2>
+                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae molestias omnis unde, sequi distinctio magnam dicta. Qui quam quaerat excepturi, ut laboriosam provident officiis quia, error deserunt necessitatibus consectetur incidunt fugit odio perspiciatis est accusantium minus, officia aut velit impedit tempora eveniet ullam maiores quas? Tempora dolores natus accusantium.</article>
+            </header>
+            <section>
+                <h3>Trending</h3>
+                <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit quasi laudantium commodi ipsa, adipisci dolor sed quam aliquam! Nam, quis!</article>
+            </section>
+            <section>
+                <h3>Product Review</h3>
+                <!-- <p>Multimedia Support with audio and video: HTML5 introduced native support for multimedia elements, including the audio and video elements. These elements allow you to embed audio and video content directly into web pages without relying on third-party plugins like Flash. With HTML5, you can provide a consistent and accessible way to deliver multimedia content to your website visitors.</p> -->
+                <video controls autoplay src="https://player.vimeo.com/external/568623396.sd.mp4?s=baddfd4dbf060fe003e35d4a5f52df9efd61cbf4&profile_id=164&oauth2_token_id=57447761" alt="PRoduct Review"></video>
+                <audio controls src="./short-music-for-video-vlog-background-funny-tropical-house-166803.mp3"></audio>
+            </section>
+        </main>
+
+        <h3>Fill in the form for newsletter</h3>
+        <!-- <p>Improved Form Elements and Validation: HTML5 introduced new form input types and attributes that enhance the user experience and simplify form validation. Features like type="email", type="url", and type="date" allow for more specific input types, making it easier for users to provide accurate information. Additionally, attributes like required and pattern enable client-side validation, reducing the need for server-side validation and improving user feedback.</p> -->
+        <fieldset>
+            <form action="get" id="newsletter">
+                <label for="Email">Enter Your Email :</label>
+                <input type="email" id="Email" name="Email">
+                <br>
+               <input type="button" value="Subscribe">
+            </form>
+        </fieldset>
+
+        <footer>
+            BE A SNEAKER HEAD
+        </footer>
+        <hr>
+
+
+        <header>
+        <h1>Q6 Assignment</h1>
+        <p>HTML5 is the fifth major revision of the HTML (Hypertext Markup Language) standard, and it introduced several significant changes and improvements compared to its predecessor, HTML4. Here are five key differences between HTML and HTML5:</p>
+        </header>
+
+        <table>
+            <tr>
+                <th>HTML</th>
+                <th>HTML 5</th>
+            </tr>
+            <ol>
+            <tr> 
+                <td> <li> HTML4 had a limited set of semantic elements like div, span, and generic heading tags (h1, h2, etc.)</li></td>
+                <td><li>HTML5 introduced a rich set of semantic elements such as header, nav>, main>, article>, section>, footer>, and more. These elements provide a more structured way to define the meaning and purpose of different parts of a web page, improving both accessibility and document structure.</li></td>
+            
+            </tr>
+            <tr>
+                <td><li>
+                   HTML4 required the use of third-party plugins like Flash for multimedia content.
+
+                </li></td>
+                <td><li>HTML5 introduced native support for multimedia content with the audio and video elements. This eliminates the need for plugins and provides a standardized way to embed and control audio and video content directly in web pages.</li></td>
+            </tr>
+            <tr>
+                <td>
+                    <li>HTML4 lacked a built-in mechanism for creating dynamic graphics or animations.</li>
+                        
+                </td>
+                <td>
+                    <li>HTML5 introduced the canvas element, which provides a drawing surface for creating 2D graphics, animations, and interactive visualizations using JavaScript. This feature is particularly useful for web-based games and data visualization.
+                    </li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>HTML4 had basic form input elements like input, textarea, and select.</li>
+                </td>
+                <td>
+                    <li>HTML5 introduced new form input types (e.g., type="email", type="date") and attributes (e.g., required, pattern) that simplify form validation, improve user experience, and enable better input control.</li>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <li>HTML4 did not have built-in support for creating offline web applications.</li>
+                </td>
+                <td>
+                    <li>HTML5 introduced technologies like the Application Cache and the Service Worker API, which enable web applications to work offline, cache resources, and provide better performance even when the user is not connected to the internet.</li>
+                </td>
+            </tr>
+        
+        </ol>
+        </table>
+
+    
+</body>
+</html>
